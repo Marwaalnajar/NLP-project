@@ -26,12 +26,12 @@ Four-way classification:
 2: Hybrid (human + AI)
 3: Adversarial AI code
 This subtask is the most difficult due to mixed stylistic signals.
-🔹 Dataset & Preprocessing
+Dataset & Preprocessing
 All datasets provided in .parquet format
 Preprocessing kept minimal to preserve stylistic cues
 Character-level TF–IDF used for all subtasks
 Combined training + validation for final training runs
-🔹 Model Architecture
+Model Architecture
 We use a lightweight and scalable pipeline:
 TF–IDF character-level vectorizer
 n-grams: (3,4) or (3,5)
